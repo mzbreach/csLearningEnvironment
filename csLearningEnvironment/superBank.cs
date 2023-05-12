@@ -38,7 +38,6 @@ namespace csLearningEnvironment
             else
             {
                 throw new ArgumentOutOfRangeException(nameof(amount), "Amount to withdrawl must be at most equal to the current balance of the account");
-
             }
         }
 
